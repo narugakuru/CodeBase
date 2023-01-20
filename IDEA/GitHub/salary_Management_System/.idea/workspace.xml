@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de20e1b6-3fcb-4444-b9ef-e9b79aef56c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/release/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/androidTest/java/com/vicent/asisit/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/cpp/native-lib.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/java/com/vicent/asisit/DrawView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/java/com/vicent/asisit/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/java/com/vicent/asisit/MyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/java/com/vicent/asisit/MyDrawLayout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/java/com/vicent/asisit/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/java/com/vicent/asisit/ServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/res/layout/toucherlayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/app/src/test/java/com/vicent/asisit/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameAssist-Wangzhe-master/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Salary_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/WebContent_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Salary.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/Register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WebContent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/addcheck.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/addinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/checkRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/css/admin_login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/addcheck.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/addinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/addmessage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/change.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/css/admin_login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/css/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/emprecord.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/fonts/icomoon.dev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/logincheck.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/message.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/personinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/salarycheck.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/emp/system.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/icomoon.dev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/logincheck.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/Register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/addcheck.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/addinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/addmessage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/addrecord.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/addsalary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/allrecord.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/change.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/changesalary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/checkRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/css/admin_login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/css/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/employeeManagement.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/fonts/icomoon.dev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/message.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/personinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/salarycheck.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/manager/system.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bean/DBBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/student/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/student/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/student/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/student/servlet/DeleteStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/student/servlet/DeleteStudentmessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/student/servlet/DeleteStudentrecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/student/servlet/DeleteStudentsalary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/JS.eml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/JS.userlibraries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/basic/05Object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/java/demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/JS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/JS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/basic/04-iterator.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/basic/04-iterator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../WEB/Travel/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/out/artifacts/Travel_war_exploded/WEB-INF/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../WEB/Travel/out/artifacts/Travel_war_exploded/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/out/artifacts/Travel_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../WEB/Travel/out/artifacts/Travel_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/com/raisei/controller/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/com/raisei/controller/ItineraryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/com/raisei/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/com/raisei/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/com/raisei/dao/ItineraryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/com/raisei/dao/ItineraryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/com/raisei/dao/OrderMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/com/raisei/dao/OrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/com/raisei/dao/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/com/raisei/dao/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/com/raisei/pojo/Itinerary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/com/raisei/pojo/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/com/raisei/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/com/raisei/service/Impl/ItineraryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/com/raisei/service/Impl/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/com/raisei/service/Impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/com/raisei/service/ItineraryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/com/raisei/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/com/raisei/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/spring-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/target/classes/spring-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../WEB/Travel/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/web/jsp/admin/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../WEB/Travel/web/jsp/admin/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/web/jsp/admin/itinerary.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../WEB/Travel/web/jsp/admin/itinerary.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/web/jsp/user/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../WEB/Travel/web/jsp/user/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB/Travel/web/jsp/userLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../WEB/Travel/web/jsp/userLogin.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1tPjum7I6bd41yRxXhaG4fpyngp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de20e1b6-3fcb-4444-b9ef-e9b79aef56c2" name="Default Changelist" comment="" />
+      <created>1622677843493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622677843493</updated>
+      <workItem from="1622677852759" duration="328000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="387" y="61" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1622677918875">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="387" y="61" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1622677918875" />
+    <state x="611" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1622677945615">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="611" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1622677945615" />
+  </component>
+</project>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var Student = {
+        name: "Student",
+        age: 20,
+        score: 100
+    };
+
+    var raisei = {
+        name: "raisei"
+    };
+    raisei.__proto__=Student;
+
+
+    class Teacher{
+        constructor(name,gender) {
+            this.name=name;
+            this.gender = gender;
+        }
+        hello(){
+            alert("hello"+this.name);
+        }
+    }
+    var t = new Teacher("hanako","女");
+
+    class XiaoTeacher extends Teacher{
+        constructor(name,gender,grade) {
+            super(name,gender);
+            this.grade = grade;
+        }
+
+        say(){
+            alert(this.name+"是"+this.grade+"老师");
+        }
+    }
+    var xt = new XiaoTeacher("李四","女","小学");
+
+
+</script>
+</body>
+</html>

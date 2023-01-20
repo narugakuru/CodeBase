@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd">
+
+    <!-- 使 AspectJ 的注解起作用  JDK(默认)：proxy-target-class="false" cglib：proxy-target-class="true"-->
+    <aop:aspectj-autoproxy/>
+    <!--注册bean-->
+    <bean id="userService10" class="service10.UserServiceImpl"/>
+    <bean id="diy" class="diy10.DiyLog"/>
+    <!--    <bean id="afterLog" class="log10.AfterLog"/>-->
+    <!--    <bean id="beforeLog" class="log10.LogBefore"/>-->
+    <!-- 自动扫描的包 -->
+    <!--    <context:component-scan base-package="diy10"/>-->
+    <!--    <context:component-scan base-package="service10"/>-->
+
+
+    <!--    &lt;!&ndash;    方法二：自定义类,相比一优点在于可以将所有方法自定义在一个类里集中管理&ndash;&gt;
+        <bean id="diy10" class="diy10.DiyPointCut"></bean>
+        <aop:config>
+            <aop:aspect ref="diy10">
+                &lt;!&ndash;切入点&ndash;&gt;
+                <aop:pointcut id="point1" expression="execution(* service10.UserServiceImpl.*(..))"/>
+                &lt;!&ndash;通知&ndash;&gt;
+                <aop:before method="beforeLog" pointcut-ref="point1"/>
+                <aop:after method="afterLog" pointcut-ref="point1"/>
+            </aop:aspect>
+        </aop:config>-->
+
+
+</beans>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="application/javascript" src="lib/jquery-3.6.0.min.js"></script>
+    <style>
+        #divMove{
+            width: 500px;
+            height: 500px;
+            border: 4px;
+            background: darkseagreen;
+        }
+    </style>
+</head>
+<body>
+mouse:<span id="mouseMove"></span>
+<div id="divMove">
+    在这移动鼠标试试
+</div>
+<script>
+    //网页加载完后
+    $(function () {
+        $('#divMove').mousemove(function (e) {
+            $('#mouseMove').text('x:'+ e.pageX+'y:'+e.pageY);
+        })
+    });
+</script>
+</body>
+</html>

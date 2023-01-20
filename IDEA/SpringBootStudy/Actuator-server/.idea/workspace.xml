@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f34bb27-246d-4165-b36b-e073b334d468" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/RequestUrl/src/HttpUrlConnectionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/Code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo01/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../demo01/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_C++/.vscode/c_cpp_properties.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VSCode_C++/.vscode/c_cpp_properties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_C++/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VSCode_C++/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_C++/.vscode/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VSCode_C++/.vscode/tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_C++/Demo/fuck.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_C++/Demo/input5.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_C++/Demo/l.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_C++/exe/fuck.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VSCode_C++/exe/fuck.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_C++/exe/tree.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VSCode_C++/exe/tree.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_C/.vscode/c_cpp_properties.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VSCode_C/.vscode/c_cpp_properties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_C/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VSCode_C/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_C/Stack/Demo2.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VSCode_C/Stack/Demo2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_C/Stack/SSStackLink.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VSCode_C/Stack/SSStackLink.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_C/exe/Demo2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VSCode_C/exe/Demo2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_C/exe/ford.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VSCode_C/exe/ford.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_C/ford.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_C/sx.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_Python/Machine Learning/catboost_info/catboost_training.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VSCode_Python/Machine Learning/catboost_info/catboost_training.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_Python/Machine Learning/catboost_info/learn/events.out.tfevents" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VSCode_Python/Machine Learning/catboost_info/learn/events.out.tfevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_Python/Machine Learning/catboost_info/time_left.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VSCode_Python/Machine Learning/catboost_info/time_left.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_Python/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VSCode_Python/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VSCode_Python/爬虫/05selenium应用.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VSCode_Python/爬虫/05selenium应用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../blog/themes/hexo-theme-yilia" beforeDir="false" afterPath="$PROJECT_DIR$/../../../blog/themes/hexo-theme-yilia" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Environment\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="D:/Environment/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Environment\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1wIrAUBeQZn79SUEs5Uh9cwaNkq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="Application.ServerApplication">
+    <configuration name="ServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.server.ServerApplication" />
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.server.ServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f34bb27-246d-4165-b36b-e073b334d468" name="Default Changelist" comment="" />
+      <created>1628156799513</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628156799513</updated>
+      <workItem from="1628156803201" duration="1649000" />
+      <workItem from="1630514261405" duration="329000" />
+      <workItem from="1631238700128" duration="692000" />
+      <workItem from="1631457538763" duration="148000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="634" y="269" key="FileChooserDialogImpl" timestamp="1631457681971">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="634" y="269" key="FileChooserDialogImpl/0.0.1707.1027@0.0.1707.1027" timestamp="1631457681971" />
+    <state width="1663" height="256" key="GridCell.Tab.0.bottom" timestamp="1628162922047">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1663" height="256" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1628162922047" />
+    <state width="1663" height="256" key="GridCell.Tab.0.center" timestamp="1628162922047">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1663" height="256" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1628162922047" />
+    <state width="1663" height="256" key="GridCell.Tab.0.left" timestamp="1628162922046">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1663" height="256" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1628162922046" />
+    <state width="1663" height="256" key="GridCell.Tab.0.right" timestamp="1628162922047">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1663" height="256" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1628162922047" />
+    <state x="384" y="169" key="Maven.ArtifactSearchDialog" timestamp="1628156839354">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="384" y="169" key="Maven.ArtifactSearchDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1628156839354" />
+    <state x="355" y="156" key="SettingsEditor" timestamp="1628157269824">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="355" y="156" key="SettingsEditor/0.0.1707.1027@0.0.1707.1027" timestamp="1628157269824" />
+    <state x="241" y="92" key="new project wizard" timestamp="1631457685603">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="241" y="92" key="new project wizard/0.0.1707.1027@0.0.1707.1027" timestamp="1631457685603" />
+  </component>
+</project>

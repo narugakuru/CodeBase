@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="JDBCDemo" />
+        <module name="JSP" />
+        <module name="Seession-Cookie-05" />
+        <module name="Test-02-JDBC" />
+        <module name="Filter-09" />
+        <module name="JSTLDemo-07" />
+        <module name="Servlet-02" />
+        <module name="Servlet-01" />
+        <module name="JDBCDemo-08" />
+        <module name="JSTLDemo" />
+        <module name="Test-01" />
+        <module name="Response-03" />
+        <module name="JSP-06" />
+        <module name="Response-01" />
+        <module name="Request-04" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Test-02-JDBC" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

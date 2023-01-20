@@ -1,0 +1,6 @@
+ServletTest\getName.class
+ServletTest\ServletDispatch.class
+ServletTest\setName.class
+ServletTest\ErrorServlet.class
+ServletTest\ServletProperties.class
+ServletTest\ContextParam.class

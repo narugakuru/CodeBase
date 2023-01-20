@@ -1,0 +1,166 @@
+<!--<%@ page language="java" contentType="text/html; charset=UTF-8"
+
+pageEncoding="UTF-8"%>
+
+<%
+
+String path = request.getContextPath();
+
+String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort()
+
++ path;
+
+%>-->
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd">-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <script type="text/javascript" src="<%=basePath%>/js/jquery.min.js"></script>
+
+    <title>小苗快长大</title>
+
+    <style>
+
+        .soil{
+
+            width:251px;
+
+            height:454px;
+
+            background-image: url(<%=basePath%>/images/soil.png);
+
+            background-repeat: no-repeat;
+
+            background-size: 100% 100%
+
+        }
+
+        img{
+
+            position:relative
+
+        }
+
+        button{
+
+            width:251px;
+
+            height:32px;
+
+            line-height:32px;
+
+        }
+
+    </style>
+
+    <script>
+
+        var growStep = 0;
+
+        $(window).resize(function(){
+
+            var plantLand = $('#plantLand');
+
+            plantLand.css({
+
+                zIndex:0,
+
+                position:"absolute",
+
+                top: ($(window).height() - plantLand.outerHeight())/4
+
+            });
+
+            plantLand.css("left",($(window).width() - plantLand.outerWidth())/2);
+
+            console.log($(window).width(),plantLand.outerWidth(),($(window).width() -plantLand.outerWidth())/2);
+
+        });
+
+        $(document).ready(
+
+            function () {
+
+                var button = $("button");
+
+                button.click(growup);
+
+                $(window).resize();
+
+            }
+
+        );
+
+        function growup(){
+
+            request("GET","<%=basePath%>/tree/grow?growStep="+growStep,{},growupSuccess,growupError,true);
+
+            growStep++;
+
+        }
+
+        function growupSuccess(data){
+
+            var button = $("button");
+
+            var img = $(".soil").find("img");
+
+            button.text(data.message);
+
+            if(data.step>0){
+
+                img.attr("src","<%=basePath%>/images/step"+data.step+".png");
+
+                img.css("left",20);
+
+            }else{
+
+                img.removeAttr("src");
+
+            }
+
+        }
+
+        function growupError(xhr,textStatus,thrownError){
+
+            alert(textStatus);
+
+        }
+
+        function request(method,url,data,successCallBack,errorCallBack,async){
+
+            $.ajax({
+
+                url: url,
+
+                async:async,
+
+                data: data,
+
+                method: method
+
+            }).success(successCallBack).error(errorCallBack);
+
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+<div id="plantLand">
+
+    <div class="soil"><img></div>
+
+    <button>点我开始</button>
+
+</div>
+
+</body>
+
+</html>

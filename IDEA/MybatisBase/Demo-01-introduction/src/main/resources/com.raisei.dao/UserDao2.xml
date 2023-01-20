@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.raisei.dao.UserDao2">
+    <sql id="baseSelect">id,username,age,address</sql>//这是idea软件本身的bug
+    <select id="findByCondition" resultType="com.raisei.pojo.User">
+        select *
+        from user
+        where id = #{id}
+        <if test="username!=null">
+            and username = #{username}
+        </if>
+        <trim prefixOverrides="and username = #{username}" suffixOverrides="like">
+            and username = #{username}
+        </trim>
+    </select>
+    <select id="findAll" resultType="com.raisei.pojo.User">
+
+    </select>
+    <select id="findByTrim" resultType="com.raisei.pojo.User">
+        select *
+        from user
+        <trim prefix="where" prefixOverrides="and">
+            <if test="id!=null">
+                id=#{id}
+            </if>
+            <if test="username!=null">
+                and username=#{username}
+            </if>
+        </trim>
+    </select>
+    <!--    where相当于写好的trim模块-->
+    <select id="findByWhere" resultType="com.raisei.pojo.User">
+        select *
+        from user
+        <where>
+            <if test="id!=null">
+                id=#{id}
+            </if>
+            <if test="username!=null">
+                and username=#{username}
+            </if>
+            <if test="address!=null">
+                and address=#{address}
+            </if>
+        </where>
+    </select>
+    <select id="findByFor" resultType="com.raisei.pojo.User">
+        select * from user
+        <where>
+            <foreach collection="ids" open="id in(" close=")" item="id" separator=",">
+                #{id}
+            </foreach>
+        </where>
+    </select>
+    <select id="findByChose" resultType="com.raisei.pojo.User">
+        select <include refid="baseSelect"/> from user
+        <where>
+            <choose>
+                <when test="username!=null">
+                    username=#{username}
+                </when>
+                <when test="id!=null">
+                    id=#{id}
+                </when>
+                <otherwise>
+                    id = 1
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+</mapper>

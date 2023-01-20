@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="fa">
+    <h1 id="h1">helle is h1</h1>
+    <h2 id="h2" class="h2">h2</h2>
+</div>
+<!--
+<script>
+    let h1 =  document.getElementById(`h1`);
+    let h2 = document.getElementsByClassName("h2");
+    let fa = document.getElementById("fa");
+    //获取父节点下的所有子节点
+    let children = fa.children;
+    let firstChild = fa.firstChild;
+
+    //修改文本
+    h1.innerText="hello World";
+    h1.innerHTML = '<strong>66666666</strong>';//解析html标签
+    h1.style.color='red';//修改css
+</script>
+-->
+<script>
+    let self = document.getElementById(`h1`);
+    let father = self.parentElement;
+    father.removeChild(self);
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="user" class="main.java.pojo.User">
+<!--        <property name="userName" value="FQme"></property>-->
+    <constructor-arg index="0" value="CCC"></constructor-arg>
+    </bean>
+
+    <import resource="Beans.xml"></import>
+
+    <alias name="user" alias="userFFF"></alias>
+<!--S
+    <bean id="userT" class="main.java.pojo.UserT">
+        <constructor-arg type="java.lang.String" value="Core"></constructor-arg>
+    </bean>
+-->
+    <bean id="userT" class="main.java.pojo.User">
+        <constructor-arg name="userName" value="Hello spring"></constructor-arg>
+    </bean>
+
+</beans>

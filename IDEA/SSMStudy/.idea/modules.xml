@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Demo01/Demo01.iml" filepath="$PROJECT_DIR$/Demo01/Demo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo02/Demo02.iml" filepath="$PROJECT_DIR$/Demo02/Demo02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo03/Demo03.iml" filepath="$PROJECT_DIR$/Demo03/Demo03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo04Value/Demo04Value.iml" filepath="$PROJECT_DIR$/Demo04Value/Demo04Value.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo05AutoWire/Demo05AutoWire.iml" filepath="$PROJECT_DIR$/Demo05AutoWire/Demo05AutoWire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo06Annotation/Demo06Annotation.iml" filepath="$PROJECT_DIR$/Demo06Annotation/Demo06Annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo07AppConfig/Demo07AppConfig.iml" filepath="$PROJECT_DIR$/Demo07AppConfig/Demo07AppConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo08InvocationHandler/Demo08InvocationHandler.iml" filepath="$PROJECT_DIR$/Demo08InvocationHandler/Demo08InvocationHandler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo08Proxy/Demo08Proxy.iml" filepath="$PROJECT_DIR$/Demo08Proxy/Demo08Proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo09AopDiy/Demo09AopDiy.iml" filepath="$PROJECT_DIR$/Demo09AopDiy/Demo09AopDiy.iml" />
+    </modules>
+  </component>
+</project>

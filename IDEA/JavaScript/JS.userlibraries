@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="bootstrap">
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.jsdelivr.net_npm_@bootcss_v3.bootcss.com@1.0.4_dist_css_bootstrap.css" />
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.jsdelivr.net_npm_@bootcss_v3.bootcss.com@1.0.8_dist_css_bootstrap.css" />
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_stackpath.bootstrapcdn.com_bootstrap_3.4.1_css_bootstrap.css" />
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_stackpath.bootstrapcdn.com_bootstrap_3.4.1_js_bootstrap.js" />
+  </library>
+  <library name="bootstrap-grid">
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.bootcdn.net_ajax_libs_twitter-bootstrap_5.0.0-beta3_css_bootstrap-grid.css" />
+  </library>
+  <library name="bootstrap-theme">
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_stackpath.bootstrapcdn.com_bootstrap_3.4.1_css_bootstrap-theme.css" />
+  </library>
+  <library name="dashboard">
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.jsdelivr.net_npm_@bootcss_v3.bootcss.com@1.0.4_examples_dashboard_dashboard.css" />
+  </library>
+  <library name="holder">
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.jsdelivr.net_npm_@bootcss_v3.bootcss.com@1.0.4_assets_js_vendor_holder.min.js" />
+  </library>
+  <library name="html5shiv">
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.jsdelivr.net_npm_html5shiv@3.7.3_dist_html5shiv.js" />
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_oss.maxcdn.com_html5shiv_3.7.3_html5shiv.min.js" />
+  </library>
+  <library name="ie-emulation-modes-warning">
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.jsdelivr.net_npm_@bootcss_v3.bootcss.com@1.0.4_assets_js_ie-emulation-modes-warning.js" />
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.jsdelivr.net_npm_@bootcss_v3.bootcss.com@1.0.8_assets_js_ie-emulation-modes-warning.js" />
+  </library>
+  <library name="ie10-viewport-bug-workaround">
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.jsdelivr.net_npm_@bootcss_v3.bootcss.com@1.0.4_assets_css_ie10-viewport-bug-workaround.css" />
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.jsdelivr.net_npm_@bootcss_v3.bootcss.com@1.0.4_assets_js_ie10-viewport-bug-workaround.js" />
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.jsdelivr.net_npm_@bootcss_v3.bootcss.com@1.0.8_assets_css_ie10-viewport-bug-workaround.css" />
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.jsdelivr.net_npm_@bootcss_v3.bootcss.com@1.0.8_assets_js_ie10-viewport-bug-workaround.js" />
+  </library>
+  <library name="ie8-responsive-file-warning">
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.jsdelivr.net_npm_@bootcss_v3.bootcss.com@1.0.4_assets_js_ie8-responsive-file-warning.js" />
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.jsdelivr.net_npm_@bootcss_v3.bootcss.com@1.0.8_assets_js_ie8-responsive-file-warning.js" />
+  </library>
+  <library name="jquery">
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.jsdelivr.net_npm_jquery@1.12.4_dist_jquery.js" />
+  </library>
+  <library name="respond">
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.jsdelivr.net_npm_respond.js@1.4.2_dest_respond.min.js" />
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_oss.maxcdn.com_respond_1.4.2_respond.min.js" />
+  </library>
+  <library name="signin">
+    <archive path="C:/Users/Raisei/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.jsdelivr.net_npm_@bootcss_v3.bootcss.com@1.0.8_examples_signin_signin.css" />
+  </library>
+</eclipse-userlibraries>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="demodb@localhost" uuid="1633f747-26c8-44d6-97e4-be6d2194197c">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/demodb?characterEncoding=utf-8&amp;serverTimezone=UTC</jdbc-url>
+    </data-source>
+  </component>
+</project>

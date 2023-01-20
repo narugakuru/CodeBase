@@ -1,0 +1,20 @@
+
+server:
+  port: 8080
+
+spring:
+  datasource:
+    name: oracle
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
+    username: scott
+    password: noesis
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto    # id生成策略 auto为数据库自增
+  configuration:
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+

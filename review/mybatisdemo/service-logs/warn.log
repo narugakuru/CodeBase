@@ -1,0 +1,16 @@
+2022-12-30 11:25:20,336 WARN org.mybatis.logging.Logger [main] Skipping MapperFactoryBean with name 'userMapper' and 'com.demo.mybatisdemo.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-12-30 11:25:20,336 WARN org.mybatis.logging.Logger [main] No MyBatis mapper was found in '[com.demo.mybatisdemo.mapper]' package. Please check your configuration.
+2022-12-30 11:25:21,073 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-30 11:25:22,335 WARN com.baomidou.mybatisplus.core.metadata.TableInfoHelper [main] Can not find table primary key in Class: "com.demo.mybatisdemo.pojo.User".
+2022-12-30 11:25:43,179 WARN org.mybatis.logging.Logger [main] Skipping MapperFactoryBean with name 'userMapper' and 'com.demo.mybatisdemo.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-12-30 11:25:43,179 WARN org.mybatis.logging.Logger [main] No MyBatis mapper was found in '[com.demo.mybatisdemo.mapper]' package. Please check your configuration.
+2022-12-30 11:25:43,859 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-30 11:25:45,109 WARN com.baomidou.mybatisplus.core.metadata.TableInfoHelper [main] Can not find table primary key in Class: "com.demo.mybatisdemo.pojo.User".
+2022-12-30 14:00:43,715 WARN org.mybatis.logging.Logger [main] Skipping MapperFactoryBean with name 'userMapper' and 'com.demo.mybatisdemo.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-12-30 14:00:43,727 WARN org.mybatis.logging.Logger [main] No MyBatis mapper was found in '[com.demo.mybatisdemo.mapper]' package. Please check your configuration.
+2022-12-30 14:00:58,615 WARN org.mybatis.logging.Logger [main] Skipping MapperFactoryBean with name 'userMapper' and 'com.demo.mybatisdemo.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-12-30 14:00:58,615 WARN org.mybatis.logging.Logger [main] No MyBatis mapper was found in '[com.demo.mybatisdemo.mapper]' package. Please check your configuration.
+2022-12-30 14:02:24,772 WARN org.mybatis.logging.Logger [main] Skipping MapperFactoryBean with name 'userMapper' and 'com.demo.mybatisdemo.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-12-30 14:02:24,773 WARN org.mybatis.logging.Logger [main] No MyBatis mapper was found in '[com.demo.mybatisdemo.mapper]' package. Please check your configuration.
+2022-12-30 14:03:32,450 WARN org.mybatis.logging.Logger [main] Skipping MapperFactoryBean with name 'userMapper' and 'com.demo.mybatisdemo.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-12-30 14:03:32,450 WARN org.mybatis.logging.Logger [main] No MyBatis mapper was found in '[com.demo.mybatisdemo.mapper]' package. Please check your configuration.

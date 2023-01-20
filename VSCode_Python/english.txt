@@ -1,0 +1,5 @@
+Using the VS Code plugin for Python
+In this article, you'll learn how to access all the features the VS Code plugin has to offer for Python.
+
+Prerequisites
+The only prerequisites are that you have Kite Engine running and the VS Code plugin installed. If you don't have the VS Code plugin installed, you can learn how to do so here.

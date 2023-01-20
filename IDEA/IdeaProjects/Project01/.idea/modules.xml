@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ObjectOrientedExam/ObjectOrientedExam.iml" filepath="$PROJECT_DIR$/ObjectOrientedExam/ObjectOrientedExam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectExam01Class/ProjectExam01Class.iml" filepath="$PROJECT_DIR$/ProjectExam01Class/ProjectExam01Class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectExam02IOT/ProjectExam02IOT.iml" filepath="$PROJECT_DIR$/ProjectExam02IOT/ProjectExam02IOT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectExam03Net/ProjectExam03Net.iml" filepath="$PROJECT_DIR$/ProjectExam03Net/ProjectExam03Net.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectExam04LSF/ProjectExam04LSF.iml" filepath="$PROJECT_DIR$/ProjectExam04LSF/ProjectExam04LSF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebCSS/WebCSS.iml" filepath="$PROJECT_DIR$/WebCSS/WebCSS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebHTML/WebHTML.iml" filepath="$PROJECT_DIR$/WebHTML/WebHTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled.iml" filepath="$PROJECT_DIR$/untitled.iml" />
+    </modules>
+  </component>
+</project>

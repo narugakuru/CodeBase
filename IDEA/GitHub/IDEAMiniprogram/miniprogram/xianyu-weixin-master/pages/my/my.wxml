@@ -1,0 +1,27 @@
+<view class='title-card'>
+  <view>
+    <image class='touxiang' src='{{userInfo.userImg}}'></image>
+    <view>
+      <text>{{userInfo.username}}</text>
+    </view>
+  </view>
+</view>
+
+
+<view class='box'>
+  <view class='box-span' style='flex:1'>
+    <text class='left'>我发布的</text>
+    <view class='right'>
+      <text>{{userInfoForSql.goodsNum}}</text>
+      <image src='/img/enter.png'></image>
+    </view>
+  </view>
+</view>
+
+<view class='box2'>
+  <text>设置</text>
+</view>
+
+<view class='box3'>
+  <text>关于</text>
+</view>

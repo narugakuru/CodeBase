@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+<!--    <link rel="stylesheet" type="text/css" href="css/dialog.css"/>-->
+    <script src="dependence/jquery-3.6.0.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+
+<button type="button" id="openDialog">点我打开对话框</button>
+
+
+<!--<script src="js/dialog.min.js" type="text/javascript" charset="utf-8"></script>-->
+
+<button type="button" id="dialog">弹窗</button>
+
+</body>
+<!--必需引入dialog-->
+<script>
+    $("#dialog").dialog({
+        dialogClass: "no-close",
+        buttons: [
+            {
+                text: "OK",
+                click: function () {
+                    $(this).dialog("close");
+                }
+            }
+        ]
+    });
+</script>
+
+<script type="text/javascript">
+    $("#openDialog").dialog({
+        id: "superDialog", //必填,必须和已有id不同
+        title: "我的标题", //对话框的标题 默认值: 我的标题
+        type: 0, //0 对话框有确认按钮和取消按钮 1 对话框只有关闭按钮
+        form: [{
+            description: "用户名",
+            type: "text",
+            name: "username",
+            value: "tom"
+        }, {
+            description: "密码",
+            type: "text",
+            name: "password",
+            value: "123456"
+        }], //form 是填充表单的数据,必填
+        submit: function (data) {
+            //data是表单收集的数据
+            console.log(data);
+        }
+    });
+</script>
+</html>

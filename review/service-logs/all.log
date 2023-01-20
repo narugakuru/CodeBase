@@ -1,0 +1,13 @@
+2022-12-30 13:27:40,117 DEBUG com.baomidou.mybatisplus.generator.AutoGenerator [main] ==========================准备生成文件...==========================
+2022-12-30 13:27:40,351 DEBUG com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine [main] 创建目录： [D:\Code\review/src/main/java\com\demo\mybatisdemo\entity]
+2022-12-30 13:27:40,352 DEBUG com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine [main] 创建目录： [D:\Code\review/src/main/java\com\demo\mybatisdemo\controller]
+2022-12-30 13:27:40,353 DEBUG com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine [main] 创建目录： [D:\Code\review/src/main/java\com\demo\mybatisdemo\service]
+2022-12-30 13:27:40,354 DEBUG com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine [main] 创建目录： [D:\Code\review/src/main/java\com\demo\mybatisdemo\mapper]
+2022-12-30 13:27:40,354 DEBUG com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine [main] 创建目录： [D:\Code\review/src/main/java\com\demo\mybatisdemo\service\impl]
+2022-12-30 13:27:40,432 DEBUG com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine [main] 模板:/templates/mapper.xml.ftl;  文件:D:\Code\review/src/main/resources/mapper/mybatisdemo/UserMapper.xml
+2022-12-30 13:27:40,546 DEBUG com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine [main] 模板:/templates/entity.java.ftl;  文件:D:\Code\review/src/main/java\com\demo\mybatisdemo\entity\User.java
+2022-12-30 13:27:40,550 DEBUG com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine [main] 模板:/templates/mapper.java.ftl;  文件:D:\Code\review/src/main/java\com\demo\mybatisdemo\mapper\UserMapper.java
+2022-12-30 13:27:40,554 DEBUG com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine [main] 模板:/templates/service.java.ftl;  文件:D:\Code\review/src/main/java\com\demo\mybatisdemo\service\IUserService.java
+2022-12-30 13:27:40,557 DEBUG com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine [main] 模板:/templates/serviceImpl.java.ftl;  文件:D:\Code\review/src/main/java\com\demo\mybatisdemo\service\impl\UserServiceImpl.java
+2022-12-30 13:27:40,561 DEBUG com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine [main] 模板:/templates/controller.java.ftl;  文件:D:\Code\review/src/main/java\com\demo\mybatisdemo\controller\UserController.java
+2022-12-30 13:27:40,561 DEBUG com.baomidou.mybatisplus.generator.AutoGenerator [main] ==========================文件生成完成！！！==========================

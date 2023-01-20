@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="997315b5-dac4-43de-8f70-11c678c7cb77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/lib1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/62ff4d93-9b07-44b3-8c2b-935c47cd291a.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jlayer_1_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/callbooks.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/META-INF/AdrressBooks.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/dao/groupDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/dao/groupDaoImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/dao/personDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/dao/personDaoImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/lib/jlayer-1.0.1-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/AddressBookGUI$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/AddressBookGUI$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/AddressBookGUI$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/AddressBookGUI$12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/AddressBookGUI$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/AddressBookGUI$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/AddressBookGUI$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/AddressBookGUI$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/AddressBookGUI$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/AddressBookGUI$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/AddressBookGUI$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/AddressBookGUI$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/AddressBookGUI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/JPopMenu$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/JPopMenu$TreeMouseListener$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/JPopMenu$TreeMouseListener$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/JPopMenu$TreeMouseListener$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/JPopMenu$TreeMouseListener$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/JPopMenu$TreeMouseListener$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/JPopMenu$TreeMouseListener$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/JPopMenu$TreeMouseListener$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/JPopMenu$TreeMouseListener$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/JPopMenu$TreeMouseListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/JPopMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/Login$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/Login$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/Music.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/TreeDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/fMessFrame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/fMessFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/friendFrame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/friendFrame$2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/friendFrame$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/friendFrame$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/friendFrame$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/friendFrame$5$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/friendFrame$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/friendFrame$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/friendFrame$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/friendFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/groupFrame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/groupFrame$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/groupFrame$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/groupFrame$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/groupFrame$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/groupFrame$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/groupFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/page/q.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/poji/group.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/poji/person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AdrressBooks/util/jdbc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/groupDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/groupDaoImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/personDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/personDaoImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/jlayer-1.0.1-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/AddressBookGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/JPopMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/TreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/fMessFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/friendFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/groupFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/q.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poji/group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poji/person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/jdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ObjectOrientedExam/src/rubbish/SIZE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ObjectOrientedExam/src/rubbish/dca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ObjectOrientedExam/src/rubbish/newclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/Exam04Text/Cilent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/Exam04Text/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/readFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/FunctionInterface/Exam04Consumer/ConsumerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/FunctionInterface/Exam05Predicate/PredicateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/FunctionInterface/Exam05Predicate/PredicateOrAnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/FunctionInterface/Exam05Predicate/PredicateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/FunctionInterface/Exam06Function/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/FunctionInterface/Exam06Function/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/Stream/EachCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/Stream/Exam01Generation/Generation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/Stream/Exam02Middle/ConcatDistinct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/Stream/Exam02Middle/LimitSkip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/Stream/Exam02Middle/MapToInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/Stream/Exam02Middle/Sorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/Stream/Exam03/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/Stream/Exam03/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/Stream/Exam03/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/sf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/out/production/ProjectExam04LSF/FunctionInterface/Exam04Consumer/ConsumerClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/out/production/ProjectExam04LSF/FunctionInterface/Exam05Predicate/PredicateOrAnd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/out/production/ProjectExam04LSF/FunctionInterface/Exam05Predicate/PredicateTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/out/production/ProjectExam04LSF/META-INF/ProjectExam04LSF.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project01/out/production/ProjectExam04LSF/sf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectExam05ReflectJDBC/src/JDBC/SqlConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectExam05ReflectJDBC/src/Reflect/Exam01GetClass/Get.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectExam05ReflectJDBC/src/Reflect/Exam01GetClass/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectExam05ReflectJDBC/src/Reflect/loader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebHTMLCSS/src/CSS概述/01-CSS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebHTMLCSS/src/CSS概述/CSS/01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Area接口Shape/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Area接口Shape/circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Area接口Shape/cylinder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Area接口Shape/face.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Area接口Shape/rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Class/Console.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Class/HyClock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Class/PersonTest$Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Class/PersonTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Class/StringBuilderDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Class/StudentTest$Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Class/StudentTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Class/graph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Coin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Company多态练习/ColaEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Company多态练习/Company.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Company多态练习/HourlyEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Company多态练习/SalariedEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Company多态练习/SalesEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Company多态练习/summarize" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Input_Sum$Date.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/Input_Sum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/rubbish/SIZE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/rubbish/dca.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/rubbish/newclass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/面向对象练习/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/面向对象练习/Vehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/面向对象练习/main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ObjectOrientedExam/面向对象练习/总结" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/AllTestSystem/AllGradeSystem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/AllTestSystem/ComputerDepartment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/AllTestSystem/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/AllTestSystem/EnglishDepartment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/AllTestSystem/Explain" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/AllTestSystem/LiteratureDepartment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/AllTestSystem/StudentData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/ArrayList/ArrayStudent$Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/ArrayList/ArrayStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/ArrayList/Array增删改查.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/GatherExam/Explain" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/JudgePoints/PlainRect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/JudgePoints/PlainRectDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/JudgePoints/Rect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/JudgePoints/explain" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/StudentManager/AddStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/StudentManager/ChangeStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/StudentManager/DeleteStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/StudentManager/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/StudentManager/StudentManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam01Class/StudentManager/ViewStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/IO/Explain" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/IO/IORubbish.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/MyInterface/Inter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/MyInterface/myDefault/DefaultInter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/MyInterface/myDefault/defaultDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/MyInterface/myDefault/defaultDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/MyInterface/myDefault/defaultImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/MyInterface/myStatic/mystaticI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/MyInterface/myStatic/staticDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/MyInterface/myStatic/staticDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/Thread/Cakes/Cake.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/Thread/Cakes/CakesDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/Thread/Cakes/setThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/Thread/MyRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/Thread/MyRunnableDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/Thread/ProducerCustomer/Box.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/Thread/ProducerCustomer/BoxDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/Thread/ProducerCustomer/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/Thread/ProducerCustomer/Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/Thread/SellDemo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/Thread/SellTicket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/Thread/SellTicketDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/Thread/Thread01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/Thread/ThreadDemo01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/Thread/ThreadSafety.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/Thread/WindowThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam02IOT/test01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/SQL/JDBCTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/TCP/Exam01/ClientDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/TCP/Exam01/ServerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/TCP/Exam02KeyBoard/ClientDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/TCP/Exam02KeyBoard/ServerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/TCP/Exam03Text/ClientDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/TCP/Exam03Text/ServerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/TCP/Exam04Text/Cilent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/TCP/Exam04Text/ClientDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/TCP/Exam04Text/Copy.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/TCP/Exam04Text/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/TCP/Exam04Text/ServerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/TCP/Exam05Text/ClientDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/TCP/Exam05Text/ServerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/TCP/Exam05Text/ServerThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/TCP/InetAddress.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/TCP/ReceiveBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/TCP/SendBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/TCP/TCP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/TCP/readFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/UDP/NetworkBase/Receive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/UDP/NetworkBase/SendData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/UDP/ReceiveDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/UDP/SendDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam03Net/UDP/UDP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/FunctionInterface/Exam01/RunnableDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/FunctionInterface/Exam01/RunnableDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/FunctionInterface/Exam02/ComparatorDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/FunctionInterface/Exam02/ComparatorDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/FunctionInterface/Exam03Supplier/SupplierDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/FunctionInterface/Exam03Supplier/SupplierDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/FunctionInterface/Exam03Supplier/SupplierMax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/FunctionInterface/Exam04Consumer/ConsumerClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/FunctionInterface/Exam04Consumer/ConsumerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/FunctionInterface/Exam05Predicate/PredicateDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/FunctionInterface/Exam05Predicate/PredicateOrAnd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/FunctionInterface/Exam05Predicate/PredicateTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/FunctionInterface/Exam06Function/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/FunctionInterface/Exam06Function/Demo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Constructor/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Constructor/StudentDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Constructor/StudentsBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Exam01/Eatable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Exam01/EatableDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Exam01/EatableDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Exam01/EatableImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Exam02/Flyable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Exam02/FlyableDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Exam02/FlyableImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Exam03/AddDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Exam03/AddDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Exam03/Addable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Exam03/AddableImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Exam04引用类方法/Converter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Exam04引用类方法/ConverterDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Exam04引用类方法/ConverterDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Exam05对象方法/PrintDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Exam05对象方法/PrintString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Exam05对象方法/Printer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/ExamSimpleness/Addable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/ExamSimpleness/AddableImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/ExamSimpleness/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/ExamSimpleness/Flyable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/ExamSimpleness/FlyableImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Inter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/Problem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Lambda/myLambda.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Stream/EachCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Stream/Exam01Generation/Generation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Stream/Exam02Middle/ConcatDistinct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Stream/Exam02Middle/LimitSkip.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Stream/Exam02Middle/MapToInt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Stream/Exam02Middle/Sorted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Stream/Exam03/Actor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Stream/Exam03/Demo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/Stream/Exam03/Demo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam04LSF/sf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam05Reflect/META-INF/ProjectExam05Reflect.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam05ReflectJDBC/JDBC/SqlConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam05ReflectJDBC/Reflect/Exam01GetClass/Get.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam05ReflectJDBC/Reflect/Exam01GetClass/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam05ReflectJDBC/Reflect/loader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam06Swing/GUI/75.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam06Swing/GUI/AbsoluteLayout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam06Swing/GUI/FlowLayoutDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam06Swing/GUI/FrameDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam06Swing/GUI/GridBagLayoutDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam06Swing/GUI/GridLayoutDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam06Swing/GUI/IconDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam06Swing/GUI/JDialogDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam06Swing/GUI/JDialogDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ProjectExam06Swing/GUI/JLabelDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/WebHTMLCSS/06-DivSpanr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/WebHTMLCSS/CSS概述/01-CSS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/WebHTMLCSS/CSS概述/CSS/01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/WebHTMLCSS/HTML概述/01-basics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/WebHTMLCSS/HTML概述/02-实体符号.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/WebHTMLCSS/HTML概述/03-表格.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/WebHTMLCSS/HTML概述/04-Background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/WebHTMLCSS/HTML概述/05-超链接.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/WebHTMLCSS/HTML概述/74.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/WebHTMLCSS/HTML概述/星之所在.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/WebHTMLCSS/表单or列表/01-List.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/WebHTMLCSS/表单or列表/02-FormInput.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/WebHTMLCSS/表单or列表/03-inputDemo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/WebHTMLCSS/表单or列表/04-Formcontrl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/WebHTMLCSS/表单or列表/05-ID属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/WebHTMLCSS/表单or列表/74.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectExam05ReflectJDBC/类加载" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdeaProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../IdeaProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ObjectOrientedExam/ObjectOrientedExam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project01/ObjectOrientedExam/ObjectOrientedExam.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ObjectOrientedExam/src/Input_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project01/ObjectOrientedExam/src/Input_Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/GUI/75.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectExam06Swing/src/GUI/75.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/GUI/AbsoluteLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectExam06Swing/src/GUI/AbsoluteLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/GUI/FlowLayoutDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectExam06Swing/src/GUI/FlowLayoutDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/GUI/FrameDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectExam06Swing/src/GUI/FrameDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/GUI/GridBagLayoutDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectExam06Swing/src/GUI/GridBagLayoutDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/GUI/GridLayoutDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectExam06Swing/src/GUI/GridLayoutDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/GUI/IconDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectExam06Swing/src/GUI/IconDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/GUI/JDialogDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectExam06Swing/src/GUI/JDialogDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/GUI/JLabelDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectExam06Swing/src/GUI/JLabelDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/Exam01/ClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/Exam01/ClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/Exam02KeyBoard/ClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/Exam02KeyBoard/ClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/Exam03Text/ClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/Exam03Text/ClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/Exam04Text/ClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/Exam04Text/ClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/Exam04Text/Copy.text" beforeDir="false" afterPath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/Exam04Text/Copy.text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/Exam04Text/ServerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/Exam04Text/ServerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/Exam05Text/ClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/Exam05Text/ClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/InetAddress.text" beforeDir="false" afterPath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/InetAddress.text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/ReceiveBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/ReceiveBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/SendBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project01/ProjectExam03Net/src/TCP/SendBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/FunctionInterface/Exam04Consumer/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/FunctionInterface/Exam04Consumer/ConsumerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/Lambda/ExamSimpleness/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project01/ProjectExam04LSF/src/Lambda/ExamSimpleness/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/WebCSS/WebCSS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectExam05ReflectJDBC/ProjectExam05ReflectJDBC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/WebCSS/src/CSS概述/01-CSS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/WebHTML/WebHTML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectExam06Swing/ProjectExam06Swing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/WebHTML/src/06-DivSpanr.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHTMLCSS/src/06-DivSpanr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/WebHTML/src/HTML概述/01-basics.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHTMLCSS/src/HTML概述/01-basics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/WebHTML/src/HTML概述/02-实体符号.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHTMLCSS/src/HTML概述/02-实体符号.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/WebHTML/src/HTML概述/03-表格.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHTMLCSS/src/HTML概述/03-表格.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/WebHTML/src/HTML概述/04-Background.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHTMLCSS/src/HTML概述/04-Background.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/WebHTML/src/HTML概述/05-超链接.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHTMLCSS/src/HTML概述/05-超链接.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/WebHTML/src/HTML概述/74.png" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHTMLCSS/src/HTML概述/74.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/WebHTML/src/HTML概述/星之所在.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHTMLCSS/src/HTML概述/星之所在.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/WebHTML/src/表单or列表/01-List.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHTMLCSS/src/表单or列表/01-List.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/WebHTML/src/表单or列表/02-FormInput.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHTMLCSS/src/表单or列表/02-FormInput.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/WebHTML/src/表单or列表/03-inputDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHTMLCSS/src/表单or列表/03-inputDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/WebHTML/src/表单or列表/04-Formcontrl.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHTMLCSS/src/表单or列表/04-Formcontrl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/WebHTML/src/表单or列表/05-ID属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHTMLCSS/src/表单or列表/05-ID属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/WebHTML/src/表单or列表/74.png" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHTMLCSS/src/表单or列表/74.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/out/production/ProjectExam04LSF/FunctionInterface/Exam04Consumer/ConsumerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project01/out/production/ProjectExam04LSF/FunctionInterface/Exam04Consumer/ConsumerDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project01/out/production/ProjectExam04LSF/FunctionInterface/as.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IdeaProjects/ObjectOrientedExam/ObjectOrientedExam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdrressBooks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IdeaProjects/ProjectExam01Class/ProjectExam01Class.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHTMLCSS/WebHTMLCSS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IdeaProjects/ProjectExam02IOT.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IdeaProjects/ProjectExam02IOT/ProjectExam02IOT.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IdeaProjects/ProjectExam03Net/ProjectExam03Net.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IdeaProjects/WebCSS/WebCSS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IdeaProjects/WebHTML/WebHTML.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IdeaProjects/WebHTML/、.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IdeaProjects/WebStudentMS/WebStudentMS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/IdeaProjects/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../另一个垃圾堆/DB/school.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../另一个垃圾堆/JavaSE零基础.xmind" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../另一个垃圾堆/ProjectExam01.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../另一个垃圾堆/学习路线.xmind" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../另一个垃圾堆/数据库概率.xmind" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../另一个垃圾堆/算法设计.xmind" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="callbooks@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="callbooks@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="callbooks@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="callbooks: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="callbooks@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="callbooks: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="person: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Code\IdeaProjects\AdrressBooks\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1mruhG2ws09kCBlUOIrAlti3Nqo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project01" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JN\IdeaProjects\AdrressBooks\src" />
+      <recent name="C:\Users\JN\IdeaProjects\AdrressBooks\src\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="page" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JN\IdeaProjects" />
+      <recent name="C:\Users\JN\IdeaProjects\AdrressBooks\src\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AddressBookGUI">
+    <configuration name="AddressBookGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="page.AddressBookGUI" />
+      <module name="AdrressBooks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JPopMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="page.JPopMenu" />
+      <module name="AdrressBooks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="page.Login" />
+      <module name="AdrressBooks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Music" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="page.Music" />
+      <module name="AdrressBooks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="personDaoImp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dao.personDaoImp" />
+      <module name="AdrressBooks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AddressBookGUI" />
+        <item itemvalue="Application.Music" />
+        <item itemvalue="Application.Login" />
+        <item itemvalue="Application.JPopMenu" />
+        <item itemvalue="Application.personDaoImp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="997315b5-dac4-43de-8f70-11c678c7cb77" name="Default Changelist" comment="" />
+      <created>1606355979772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606355979772</updated>
+      <workItem from="1606355981283" duration="5628000" />
+      <workItem from="1606434745900" duration="21676000" />
+      <workItem from="1606572332875" duration="439000" />
+      <workItem from="1606618491661" duration="8360000" />
+      <workItem from="1606694711507" duration="1365000" />
+      <workItem from="1606787603940" duration="681000" />
+      <workItem from="1606984659297" duration="490000" />
+      <workItem from="1607040167524" duration="6296000" />
+      <workItem from="1607046519975" duration="1894000" />
+      <workItem from="1607298556039" duration="947000" />
+      <workItem from="1607306905506" duration="10804000" />
+      <workItem from="1607387686458" duration="9652000" />
+      <workItem from="1607470738087" duration="891000" />
+      <workItem from="1607579738375" duration="7480000" />
+      <workItem from="1607644373108" duration="15809000" />
+      <workItem from="1607905086644" duration="6020000" />
+      <workItem from="1608083434245" duration="33127000" />
+      <workItem from="1608169704812" duration="8222000" />
+      <workItem from="1608247141074" duration="11302000" />
+      <workItem from="1608314343544" duration="1001000" />
+      <workItem from="1608431396975" duration="3483000" />
+      <workItem from="1608438085595" duration="1029000" />
+      <workItem from="1608447145590" duration="2276000" />
+      <workItem from="1608517214161" duration="891000" />
+      <workItem from="1610264152688" duration="2823000" />
+      <workItem from="1610267048580" duration="307000" />
+      <workItem from="1610271256956" duration="1819000" />
+      <workItem from="1610296853992" duration="418000" />
+      <workItem from="1610607196662" duration="1416000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-867" y="-348" key="FileChooserDialogImpl" timestamp="1610610796584">
+      <screen x="-1080" y="-851" width="864" height="1496" />
+    </state>
+    <state x="-867" y="-348" key="FileChooserDialogImpl/0.0.1536.824/-1080.-851.864.1496@-1080.-851.864.1496" timestamp="1610610796584" />
+    <state width="821" height="274" key="GridCell.Tab.0.bottom" timestamp="1610610799023">
+      <screen x="-1080" y="-851" width="864" height="1496" />
+    </state>
+    <state width="821" height="274" key="GridCell.Tab.0.bottom/0.0.1536.824/-1080.-851.864.1496@-1080.-851.864.1496" timestamp="1610610799023" />
+    <state width="1493" height="129" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610266997371" />
+    <state width="1493" height="129" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610292376776" />
+    <state width="821" height="274" key="GridCell.Tab.0.center" timestamp="1610610799023">
+      <screen x="-1080" y="-851" width="864" height="1496" />
+    </state>
+    <state width="821" height="274" key="GridCell.Tab.0.center/0.0.1536.824/-1080.-851.864.1496@-1080.-851.864.1496" timestamp="1610610799023" />
+    <state width="1493" height="129" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610266997371" />
+    <state width="1493" height="129" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610292376776" />
+    <state width="821" height="274" key="GridCell.Tab.0.left" timestamp="1610610799023">
+      <screen x="-1080" y="-851" width="864" height="1496" />
+    </state>
+    <state width="821" height="274" key="GridCell.Tab.0.left/0.0.1536.824/-1080.-851.864.1496@-1080.-851.864.1496" timestamp="1610610799023" />
+    <state width="1493" height="129" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610266997371" />
+    <state width="1493" height="129" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610292376776" />
+    <state width="821" height="274" key="GridCell.Tab.0.right" timestamp="1610610799023">
+      <screen x="-1080" y="-851" width="864" height="1496" />
+    </state>
+    <state width="821" height="274" key="GridCell.Tab.0.right/0.0.1536.824/-1080.-851.864.1496@-1080.-851.864.1496" timestamp="1610610799023" />
+    <state width="1493" height="129" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610266997371" />
+    <state width="1493" height="129" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610292376776" />
+    <state x="467" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1610607196064">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="467" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1080.-851.864.1496@0.0.1536.824" timestamp="1610607196064" />
+    <state x="467" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610271257930" />
+    <state x="467" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1610296853848" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="con" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>con</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+binary file -- 二进制文件
+file object 能够读写 字节类对象。二进制文件的例子包括以二进制模式（'rb', 'wb' or 'rb+'）打开的文件、sys.stdin.buffer、sys.stdout.buffer 以及 io.BytesIO 和 gzip.GzipFile 的实例。
+
+另请参见 text file 了解能够读写 str 对象的文件对象。
+
+bytes-like object -- 字节类对象
+支持 缓冲协议 并且能导出 C-contiguous 缓冲的对象。这包括所有 bytes、bytearray 和 array.array 对象，以及许多普通 memoryview 对象。字节类对象可在多种二进制数据操作中使用；这些操作包括压缩、保存为二进制文件以及通过套接字发送等。
+
+某些操作需要可变的二进制数据。这种对象在文档中常被称为“可读写字节类对象”。可变缓冲对象的例子包括 bytearray 以及 bytearray 的 memoryview。其他操作要求二进制数据存放于不可变对象 ("只读字节类对象")；这种对象的例子包括 bytes 以及 bytes 对象的 memoryview。
+
+bytecode -- 字节码
+Python 源代码会被编译为字节码，即 CPython 解释器中表示 Python 程序的内部代码。字节码还会缓存在 .pyc 文件中，这样第二次执行同一文件时速度更快（可以免去将源码重新编译为字节码）。这种 "中间语言" 运行在根据字节码执行相应机器码的 virtual machine 之上。请注意不同 Python 虚拟机上的字节码不一定通用，也不一定能在不同 Python 版本上兼容。
+
+字节码指令列表可以在 dis 模块 的文档中查看。

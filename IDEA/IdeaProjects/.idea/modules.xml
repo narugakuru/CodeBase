@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdrressBooks/AdrressBooks.iml" filepath="$PROJECT_DIR$/AdrressBooks/AdrressBooks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KeyDemo/KeyDemo.iml" filepath="$PROJECT_DIR$/KeyDemo/KeyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project01/ObjectOrientedExam/ObjectOrientedExam.iml" filepath="$PROJECT_DIR$/Project01/ObjectOrientedExam/ObjectOrientedExam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectExam/ProjectExam.iml" filepath="$PROJECT_DIR$/ProjectExam/ProjectExam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project01/ProjectExam01Class/ProjectExam01Class.iml" filepath="$PROJECT_DIR$/Project01/ProjectExam01Class/ProjectExam01Class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project01/ProjectExam02IOT/ProjectExam02IOT.iml" filepath="$PROJECT_DIR$/Project01/ProjectExam02IOT/ProjectExam02IOT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project01/ProjectExam03Net/ProjectExam03Net.iml" filepath="$PROJECT_DIR$/Project01/ProjectExam03Net/ProjectExam03Net.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project01/ProjectExam04LSF/ProjectExam04LSF.iml" filepath="$PROJECT_DIR$/Project01/ProjectExam04LSF/ProjectExam04LSF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectExam05ReflectJDBC/ProjectExam05ReflectJDBC.iml" filepath="$PROJECT_DIR$/ProjectExam05ReflectJDBC/ProjectExam05ReflectJDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectExam06Swing/ProjectExam06Swing.iml" filepath="$PROJECT_DIR$/ProjectExam06Swing/ProjectExam06Swing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RequestUrl/RequestUrl.iml" filepath="$PROJECT_DIR$/RequestUrl/RequestUrl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpingDemo/SpingDemo.iml" filepath="$PROJECT_DIR$/SpingDemo/SpingDemo.iml" />
+    </modules>
+  </component>
+</project>
