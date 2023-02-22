@@ -21,6 +21,10 @@ def login(web):
 
     web.find_element_by_xpath('//*[@id="password"]').send_keys("noesis360724")
 
+    web.find_element_byxpath(
+        "/html/body/div[3]/div[1]/div[2]/div[3]/form/div[4]/em"
+    ).click()
+
     web.find_element_by_xpath('//*[@id="login_btn"]').click()
 
 
@@ -29,3 +33,10 @@ if __name__ == "__main__":
     login(web)
     # 进入搜索页面
     web.find_element_by_xpath("/html/body/div[1]/div[4]/div/p/a[2]").click()
+
+    # 爬list
+    alist = web.find_element_by_xpath(
+        "/html/body/div[1]/div/div[2]/div/div[1]/div[2]/div[3]/div[1]"
+    )
+    print(alist)
+

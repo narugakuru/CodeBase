@@ -9,10 +9,15 @@ reqs.encoding = "utf-8"
 
 # 解析html
 main_page = BeautifulSoup(reqs.text, "html.parser")
+
+print(main_page)
+
 # find然后find_all获取所有的超链接
+# alist = main_page.find("div", attrs={"class": "TypeList"}).find_all("a", attrs={"class": "TypeBigPics"})
 alist = main_page.find("div", attrs={"class": "TypeList"}).find_all(
-    "a", attrs={"class": "TypeBigPics"}
+    "a", attrs={"class": "lazy"}
 )
+
 n = 1
 num = 1
 # 遍历处理每个子页面的图片

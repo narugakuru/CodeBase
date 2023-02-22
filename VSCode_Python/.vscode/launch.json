@@ -9,7 +9,7 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": false,
-            "python": "C:\\Program Files\\Python3.9.1\\python.exe", //python3的安装路径
+            "python": "D:\\Environment\\Anaconda2020.11\\python.exe", //python3的安装路径
             "program": "${file}",
             "cwd": "${workspaceFolder}",
             "env": {},
@@ -20,7 +20,7 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": false,
-            "python": "C:\\Program Files\\Python3.9.1\\python.exe",
+            "python": "D:\\Environment\\Anaconda2020.11\\python.exe",
             "program": "${file}",
             "cwd": "",
             "console": "integratedTerminal",
@@ -32,7 +32,7 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": false,
-            "python": "C:\\Program Files\\Python3.9.1\\python.exe",
+            "python": "D:\\Environment\\Anaconda2020.11\\python.exe",
             "program": "${file}",
             "cwd": "",
             "console": "externalTerminal",
@@ -44,7 +44,7 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": true,
-            "python": "C:\\Program Files\\Python3.9.1\\python.exe",
+            "python": "D:\\Environment\\Anaconda2020.11\\python.exe",
             "program": "${workspaceFolder}/manage.py",
             "cwd": "${workspaceFolder}",
             "args": [

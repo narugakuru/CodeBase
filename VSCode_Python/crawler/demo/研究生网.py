@@ -7,9 +7,12 @@ import random
 url = "https://yz.chsi.com.cn/zsml/queryAction.do"
 
 web = Chrome()
+
 web.get(url)
+
 # 选择查询：省，门类，学科类别，学习方式
 # random.random()  # 0，1之间的浮点数
+
 time.sleep(random.random())
 web.find_element_by_xpath('//*[@id="ssdm"]/option[15]').click()  # 省份
 time.sleep(random.random())
@@ -54,5 +57,6 @@ for a in aList:
 
     web.close()
     web.switch_to.window(web.window_handles[-1])
+    # 爬完返回上一个页面
 
 f.close()

@@ -17,6 +17,11 @@ public class ErrorServlet extends HttpServlet {
     }
 
     @Override
+    public String getServletInfo() {
+        return super.getServletInfo();
+    }
+
+    @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         super.doPost(req, resp);
     }
