@@ -1,0 +1,23 @@
+keysMap = {
+    "screen_width": 2560,
+    "screen_height": 1600,
+    "imgsz": 640,
+    "conf_thres": 0.3,
+    "iou_thres": 0.48,
+    "grab_window_title": "Apex Legends",
+    "grab_width": 640,
+    "grab_height": 640,
+    "re_x": 320,
+    "re_y": 320,
+    "lock_mode": True,
+    "show_win": True,
+    "half": False,
+    "pid_x_p": 0.3,
+    "pid_x_i": 0.03,
+    "pid_x_d": 0.01,
+    "pid_y_p": 0.3,
+    "pid_y_i": 0,
+    "pid_y_d": 0,
+    "offset": 0.2,
+    "aim_mod": 0
+}

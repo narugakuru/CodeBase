@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    'use strict';
+    var map = new Map([["tom", 100], ["jack", 99]]);
+    for (let x of map) {
+        console.log(x);
+    }
+
+    function f(x) {
+        console.log(x);
+    }
+
+    var p = function (x) {
+        console.log(x);
+    };
+
+    // alert(p(413)+"?");
+
+    // let date = new Date().getTime();
+    // console.log(new Date(date));
+    console.log(new Date(new Date().getTime()))
+
+
+    var person = {
+        name: "raisie",
+        age: 19,
+        gender: "男"
+    };
+
+    //对象转json字符串
+    let s = JSON.stringify(person);
+    //json字符串转对象
+    let j = JSON.parse('{"name": "raisie","age": 19,"gender": "男"}');
+
+
+</script>
+</body>
+</html>

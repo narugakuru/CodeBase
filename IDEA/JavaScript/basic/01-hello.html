@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JS</title>
+
+    <script>
+
+        // var num = 2001;
+        // LeapYear(num);
+        "use strict";
+        let name = "raisei";
+        //拼接字符串``
+        let nl = name.length;
+        let msg = `hello,${name}`;
+
+        var a = {
+            name: name,
+            person: "person"
+        };
+
+        function LeapYear() {
+            var year = document.getElementById("num").value;
+            if (year % 100 % 4 === 0) {
+                alert(year + "是闰年");
+            } else {
+                alert(year + "不是闰年");
+            }
+        }
+
+        if (document.getElementById("num")) {
+            console.log("yes");
+        } else if (document.getElementById("num1")) {
+            console.log("no");
+        }
+
+
+        // var score = 77;
+        // if (score > 60) {
+        // 	alert("合格");
+        // }
+        var min = Math.abs(1 / 3 - (1 - 2 / 3));
+        console.log((1 / 3) === (1 - 2 / 3));
+        console.log(min < 0.00000001);
+        // var age = 55;
+    </script>
+
+</head>
+<body>
+<input type="number" id="num"/>
+<button type="submit" onclick="LeapYear()">检测</button>
+
+</body>
+</html>

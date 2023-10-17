@@ -1,0 +1,43 @@
+VSCode_D2L/2022-Machine-Learning-Specialization
+VSCode_D2L/pytorch-d2l
+
+
+# 数据包
+*.rar
+*.zip
+*.7z
+
+#maven
+target/
+dependency-reduced-pom.xml
+pom.xml.versionsBackup
+.factorypath
+out/
+*.class
+
+# go,c,c++
+bin/
+*.exe
+*.pyc
+
+# Gradel
+.gradle/
+build/
+ 
+# IDEA
+.idea/
+*.ipr
+*.iml
+*.iws
+ 
+# temp ignore
+*.log
+*.cache
+*.diff
+
+# weight
+*.pt
+*.onnx
+*.trt
+*.engine
+*.dll

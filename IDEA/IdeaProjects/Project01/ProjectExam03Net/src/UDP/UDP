@@ -1,0 +1,5 @@
+UDP，User Datagram Protocol
+UDP，属于不可靠服务，具有TCP没有的优势
+UDP 为应用程序提供了一种无需建立连接就可以发送封装的 IP 数据包的方法。
+UDP无连接，时间上不存在建立连接需要的时延
+UDP常用一次性传输比较少量数据的网络应用，如DNS,SNMP等

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--设置配置文件所在的路径-->
+    <properties resource="jdbc.properties"></properties>
+    <!-- 设置驼峰匹配 -->
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
+    <!--设置默认环境-->
+    <environments default="development">
+        <!--设置该环境的唯一标识-->
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <!--获取配置文件中配置的对应的值来设置连接相关参数-->
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--    配置xml映射器-->
+    <mappers>
+        <mapper resource="com.raisei.dao/UserDao2.xml"/>
+        <mapper class="com.raisei.dao.UserDao"/>
+    </mappers>
+
+</configuration>
+
+

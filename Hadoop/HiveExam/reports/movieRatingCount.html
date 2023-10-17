@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script src="echarts.js"></script>
+</head>
+<body>
+<div id="mrc" style="width: 600px;height:400px;"></div>
+<script>
+  var mchart = echarts.init(document.getElementById("mrc"));
+  var option = {
+    xAxis: {
+      type: 'category',
+      data: [2858, 260, 1196, 1210, 480, 2028, 589, 2571, 1270, 593]
+    },
+    yAxis: {
+      type: 'value'
+    },
+    series: [
+      {
+        data: [3428, 2992, 2990, 2883, 2672, 2654, 2649, 2591, 2583, 2578],
+        type: 'bar'
+      }
+    ]
+  };
+  mchart.setOption(option);
+</script>
+</body>
+</html>

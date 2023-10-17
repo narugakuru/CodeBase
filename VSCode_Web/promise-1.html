@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" encoding="UTF-8">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Raisei</title>
+
+</head>
+
+<body>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/es6-promise/4.2.8/es6-promise.auto.js"></script>
+
+    <h1>Hello world</h1>
+
+    <p id="p1">这里是Jquery测试网页！</p>
+
+    <button type="button" onclick=promiseClick()>promise按钮</button>
+
+    <button type="button" onclick=promiseReject()>roll一个数</button>
+    <h1 id="h1">h1</h1>
+    <h1 id="p2">p2</h1>
+
+
+
+<!--     <script>
+         console.log("a")
+        console.log("b")
+        setTimeout(() => { console.log("wuhuhu") }, 3000)
+        console.log("Hello")
+        console.log(1)
+
+        setTimeout(() => {
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:8080/json2",
+                success: function (response) {
+                    console.log(response);
+                    document.getElementById("p1").innerHTML = response;
+                }
+            })
+        }, 1000);
+        console.log(2)
+    </script>
+ -->
+    <script>
+
+        /*      
+                //等价方法
+                function promiseClick(){
+                } */
+        promiseClick = () => {
+            let promise = new Promise(function (resolve, reject) {
+                resolve("babay");
+            });
+            promise.then(function (res) {
+                document.getElementById("h1").append(res)
+            });
+        }
+
+
+        function promiseReject() {
+            let promise = new Promise((resolve, reject) => {
+                    let num = Math.ceil(Math.random() * 20); //生成1-20的随机
+                    if (num >= 10) {
+                        resolve("resolve返回成功");
+                    } else {
+                        reject("值小于10");
+                    }
+                });
+
+            promise
+                .then(function (resolve) {
+                    document.getElementById("p2").append(resolve)
+                })
+                .catch( function (reject) {
+                    document.getElementById("p2").append(reject)
+                });
+
+        }
+
+
+
+/*         async function promiseAll1(){
+            return promiseReject();
+        }
+
+        async function promiseAll2(){
+            return promiseReject();
+        }
+
+        Promise.all([promiseAll1(),promiseAll2()])
+        .then( function (res) {
+            console.log(res)
+        
+        }) */
+
+    </script>
+
+
+    <script>
+     
+        function promiseClick1(){
+		let p = new Promise(function(resolve, reject){
+			setTimeout(function(){
+				var num = Math.ceil(Math.random()*20); //生成1-10的随机数
+				console.log('2s随机数生成的值：',num)
+				if(num<=10){
+					resolve(num);
+				}
+				else{
+					reject('2s数字太于10了即将执行失败回调');
+				}
+			}, 2000);
+		   })
+		   return p
+	   }
+	   function promiseClick2(){
+		let p = new Promise(function(resolve, reject){
+			setTimeout(function(){
+				var num = Math.ceil(Math.random()*20); //生成1-10的随机数
+				console.log('3s随机数生成的值：',num)
+				if(num<=10){
+					resolve(num);
+				}
+				else{
+					reject('3s数字太于10了即将执行失败回调');
+				}
+			}, 3000);
+		   })
+		   return p
+	   }
+	   function promiseClick3(){
+		let p = new Promise(function(resolve, reject){
+			setTimeout(function(){
+				var num = Math.ceil(Math.random()*20); //生成1-10的随机数
+				console.log('4s随机数生成的值：',num)
+				if(num<=10){
+					resolve(num);
+				}
+				else{
+					reject('4s数字太于10了即将执行失败回调');
+				}
+			}, 4000);
+		   })
+		   return p
+	   }
+ 
+	Promise
+		.race([promiseClick3(), promiseClick2(), promiseClick1()])
+		.then(function(results){
+			console.log('成功',results);
+		},function(reason){
+			console.log('失败',reason);
+		});
+    </script>
+
+
+
+    <script>
+        // http://localhost:8080/json2
+
+            //请求某个table数据
+        function requestTableList(){
+
+            var p = new Promise((resolve, reject) => {
+                // url (必须), options (可选)
+                fetch('http://localhost:8080/json2', {
+                    method: 'get'
+                })
+                .then(function(response) {
+                    resolve(response);
+                })
+                .catch(function(err) {
+                    console.log(err)
+                });
+                //去后台请求数据，这里可以是ajax,可以是axios,可以是fetch 
+   
+            });
+
+/*             var p = fetch('http://localhost:8080/json2', {
+                    method: 'get'
+                })
+                .then(function(response) {
+                    resolve(response);
+                })
+                .catch(function(err) {
+                    console.log(err)
+                }); */
+
+            return p;
+        }
+    //延时函数，用于给请求计时 10s
+        function timeout(){
+            var p = new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    reject('请求超时');
+                }, 10000);
+            });
+            return p;
+        }
+        
+        Promise.race([requestTableList(), timeout()]).then((data) =>{
+            //进行成功回调处理
+            console.log(data);
+        }).catch((err) => {
+            // 失败回调处理
+            console.log(err);
+        });
+    </script>
+
+</body>
+
+</html>

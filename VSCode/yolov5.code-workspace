@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "../Yolo/yolov5"
+		}
+	],
+	"settings": {
+		"Codegeex.Comment.LanguagePreference": "zh-CN"
+	}
+}

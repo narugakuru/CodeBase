@@ -1,0 +1,7 @@
+{
+  "cmake.sourceDirectory": "E:/Code/Yolo/APEX_AIMBOT/tensorrt_python/cpp/end2end",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "python.formatting.provider": "none"
+}

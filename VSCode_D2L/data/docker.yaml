@@ -1,0 +1,12 @@
+version: "3.6"
+services:
+  chuanhuGPT:
+    container_name: chuanhuGPT #唯一
+    image: tuchuanhuhuhu/chuanhuchatgpt:latest
+    volumes:
+      - /mnt/sata2-1/Configs/chuanhuGPT/history/:/app/history/ \
+      - /mnt/sata2-1/Configs/chuanhuGPT/config.json:/app/config.json \
+    network_mode: "host"
+
+    ports:
+      - 7860:7860

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.raisei.dao.OrderDao">
+
+    <!--    <resultMap id="orderMap" type="com.raisei.pojo.Order">
+            <result column="user_id" property="userId"></result>
+        </resultMap>-->
+    <resultMap id="baseMap" type="com.raisei.pojo.Order" autoMapping="false">
+        <id column="id" property="id"></id>
+        <result column="createtime" property="createTime"></result>
+        <result column="price" property="price"></result>
+        <result column="remark" property="remark"></result>
+    </resultMap>
+    <resultMap id="orderMap" type="com.raisei.pojo.Order" autoMapping="false" extends="baseMap">
+        <result column="user_id" property="userId"></result>
+    </resultMap>
+    <!--Order和User关联的映射-->
+    <resultMap id="orderUserMap" type="com.raisei.pojo.Order" autoMapping="false" extends="orderMap">
+        <result property="user.id" column="uid"></result>
+        <result property="user.username" column="username"></result>
+        <result property="user.age" column="age"></result>
+        <result property="user.address" column="address"></result>
+    </resultMap>
+
+    <resultMap id="orderUserMapAssociation" type="com.raisei.pojo.Order" extends="orderMap">
+        <association property="user" javaType="com.raisei.pojo.User">
+            <id column="uid" property="id"></id>
+            <result column="username" property="username"></result>
+            <result column="age" property="age"></result>
+            <result column="address" property="address"></result>
+        </association>
+    </resultMap>
+
+    <select id="findAll" resultMap="orderMap">
+        select id, createtime, price, remark, user_id
+        from orders
+    </select>
+
+    <!--根据订单id查询订单，要求把下单用户的信息也查询出来-->
+    <select id="findById" resultMap="orderUserMapAssociation">
+        SELECT o.`id`,
+               o.`createtime`,
+               o.`price`,
+               o.`remark`,
+               o.`user_id`,
+               u.`id` uid,
+               u.`username`,
+               u.`age`,
+               u.`address`
+        FROM orders o,
+             `user` u
+        WHERE o.id = #{id}
+          AND o.`user_id` = u.`id`
+    </select>
+</mapper>

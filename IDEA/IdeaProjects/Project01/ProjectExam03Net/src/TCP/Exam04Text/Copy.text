@@ -1,0 +1,20 @@
+1.$ git init //初始化
+2.$ git remote add origin "URL"//设置URL
+3.$ git pull origin master //拉取仓库
+4.$ git add. //添加文件
+5.$ git commit-m"第一次提交" //注释
+6.$ git push origin master //推送数据
+Git status //查看文件状态
+Git remote set-url origin 仓库地址
+Cat.git/config
+一.更新本地仓库
+    1.进入仓库文件夹，手动加入新文件，然后用 git add 文件名 加入到缓存区
+    2.用git commit -m “提交信息” 命令 将缓存区里面的内容加入到本地仓库中
+二.将本地仓库更新到远程仓库
+    1.进行这个步骤之前要完成前面的步骤
+    2.关联到远程仓库：git remote add origin 地址
+    3.将远程库与本地同步合并：git pull --rebase origin master
+    4.将本地库的内容推送到远程，使用git push 命令：git push -u origin master
+    *状态查询命令：git status
+生成SSH密匙
+ssh-keygen -t rsa

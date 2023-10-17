@@ -1,0 +1,124 @@
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <script src="dependence/jquery-3.6.0.min.js"></script>
+
+    <style>
+
+        #flowerAndPot {
+
+            border: solid 2px red;
+
+            position: absolute;
+
+            width: 70px;
+
+            height: 170px;
+
+        }
+
+
+        #flower {
+
+            border: solid 2px blue;
+
+            position: absolute;
+
+            top: 0px;
+
+            left: 50px;
+
+            width: 100px;
+
+            height: 116px;
+
+            background-size: cover;
+
+        }
+
+
+        #pot {
+
+            border: solid 2px pink;
+
+            position: absolute;
+
+            top: 116px;
+
+            left: 0px;
+
+            width: 200px;
+
+            height: 102px;
+
+            background-size: cover;
+
+
+        }
+
+
+        #table {
+
+            border: solid 2px pink;
+
+            position: absolute;
+
+            top: 220px;
+
+            left: 0px;
+
+            width: 850px;
+
+            height: 96px;
+
+            background-image: url(images/table.png);
+
+            background-size: cover;
+
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div id="flowerAndPot">
+
+    <div id="flower"></div>
+
+    <div id="pot"></div>
+
+</div>
+
+<div id="table"></div>
+
+</body>
+
+<script>
+
+    $(document).ready(function () {
+
+        for (var index = 0; index < 4; index++) {
+
+            var newObject = $("#flowerAndPot").clone();
+
+            newObject.css("left", index * 210);
+
+            newObject.find("#flower").css("background-image", "url(images/flower" + Math.ceil(Math.random() * 2) + ".png)");
+
+            newObject.find("#pot").css("background-image", "url(images/pot" + Math.ceil(Math.random() * 2) + ".png)");
+
+            $("body").append(newObject);
+
+        }
+
+    });
+
+</script>
+
+</html>

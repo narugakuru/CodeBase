@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.6319133176197056" y="0.0">SimpleFactory01.pizza.CheessPizza</node>
+    <node x="4.794648355464631" y="167.171278625383">SimpleFactory01.pizza.pizza</node>
+    <node x="0.0" y="424.4374573612205">SimpleFactory01.pizza.GreekPizza</node>
+    <node x="181.6319133176197" y="207.0">SimpleFactory01.pizza.PizzaFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="SimpleFactory01.pizza.GreekPizza" target="SimpleFactory01.pizza.pizza">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="SimpleFactory01.pizza.CheessPizza" target="SimpleFactory01.pizza.pizza">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Balloon" zoom="1.0" x="78.5" y="163.0" />
+  <SelectedNodes>
+    <node>SimpleFactory01.pizza.PizzaFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

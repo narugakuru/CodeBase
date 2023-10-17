@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Promise example</title>
+
+    <link rel="stylesheet" href="">
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <h1>Promise example</h1>
+
+</body>
+
+<script>
+    function imgLoad(url) {
+        // Create new promise with the Promise() constructor;
+        // This has as its argument a function
+        // with two parameters, resolve and reject
+        return new Promise(function (resolve, reject) {
+            // Standard XHR to load an image
+            var request = new XMLHttpRequest();
+            request.open('GET', url);
+            request.responseType = 'blob';
+            // When the request loads, check whether it was successful
+            request.onload = function () {
+                if (request.status === 200) {
+                    // If successful, resolve the promise by passing back the request response
+                    resolve(request.response);
+                } else {
+                    // If it fails, reject the promise with a error message
+                    reject(Error('Image didn\'t load successfully; error code:' + request.statusText));
+                }
+            };
+            request.onerror = function () {
+                // Also deal with the case when the entire request fails to begin with
+                // This is probably a network error, so reject the promise with an appropriate message
+                reject(Error('There was a network error.'));
+            };
+            // Send the request
+            request.send();
+        });
+    }
+
+    //获取body元素的引用，并创建一个新的image对象 
+    var body = document.querySelector('body');
+    var myImage = new Image(200, 200);
+    //Image()它的功能等价于 document.createElement('img')
+
+    //用我们想要加载的URL来调用这个函数，然后链接
+    //承诺然后then()方法到它的结尾。这包含两个回调
+
+    url = "D:/Code/VSCode_Web/image/violent.jpg"
+    imgLoad(url).then(function (response) {
+        //第一个在承诺解析时运行，并使用request.response,在resolve()方法中指定
+
+        var imageURL = window.URL.createObjectURL(response);
+
+        myImage.src = imageURL;
+        body.appendChild(myImage);
+        //  第二个在承诺被拒绝时运行，并记录使用reject()方法指定的错误。
+    }, function (Error) {
+        console.log(Error);
+    });
+
+
+</script>
+
+</html>

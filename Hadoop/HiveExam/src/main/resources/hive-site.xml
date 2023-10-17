@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+	<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+	<configuration>
+	    <!-- jdbc连接的URL -->
+	    <property>
+	        <name>javax.jdo.option.ConnectionURL</name>
+		<value><![CDATA[jdbc:mysql://192.168.133.129:3306/hive?useSSL=false&allowPublicKeyRetrieval=true]]></value>
+		</property>
+
+	    <!-- jdbc连接的Driver-->
+	    <property>
+	        <name>javax.jdo.option.ConnectionDriverName</name>
+	        <value>com.mysql.cj.jdbc.Driver</value>
+		</property>
+
+		<!-- jdbc连接的username-->
+	    <property>
+	        <name>javax.jdo.option.ConnectionUserName</name>
+	        <value>dev</value>
+	    </property>
+
+	    <!-- jdbc连接的password -->
+	    <property>
+	        <name>javax.jdo.option.ConnectionPassword</name>
+	        <value>123456</value>
+		</property>
+	    
+	    <!-- Hive元数据存储的验证 -->
+	    <property>
+	        <name>hive.metastore.schema.verification</name>
+	        <value>false</value>
+	    </property>
+	   
+	    <!-- 元数据存储授权  -->
+	    <property>
+	        <name>hive.metastore.event.db.notification.api.auth</name>
+	        <value>false</value>
+	    </property>
+
+	    <!-- 指定metastore地址 -->
+	    <property>
+	        <name>hive.metastore.uris</name>
+	        <value>thrift://192.168.133.129:9083</value>
+	    </property>
+
+	    <!-- 指定metastore连接超时  -->
+	    <property>
+	        <name>hive.metastore.client.socket.timeout</name>
+	        <value>3600</value>
+	    </property>
+	    <property>
+                <name>hive.server2.enable.doAs</name>
+                <value>false</value>
+            </property>
+	</configuration>

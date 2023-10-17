@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.raisei.dao.UserDao">
+
+    <sql id="all">id,username,age,address</sql>
+
+    <!--定义User基本属性映射规则-->
+    <resultMap id="userMap" type="com.raisei.pojo.User">
+        <id property="id" column="id"></id>
+        <result property="username" column="username"></result>
+        <result property="age" column="age"></result>
+        <result property="address" column="address"></result>
+    </resultMap>
+
+
+
+
+    <select id="findAll" resultType="com.raisei.pojo.User">
+        select * from user
+    </select>
+
+
+    <!--定义包含Role的User属性映射规则-->
+    <resultMap id="userRoleMap" type="com.raisei.pojo.User"  extends="userMap">
+        <collection property="roles"
+                    ofType="com.raisei.pojo.Role"
+                    select="com.raisei.dao.RoleDao.findRoleByUserId"
+                    column="id">
+        </collection>
+    </resultMap>
+
+    <select id="findByUsername" resultMap="userRoleMap">
+        select <include refid="all"/> from user where username = #{username}
+    </select>
+
+
+    <!--//OK,idea不明原因的报错-->
+    <select id="findById" resultMap="userRoleMap" >
+        SELECT
+            u.`id`,u.`username`,u.`age`,u.`address`,r.id rid,r.name,r.desc
+        FROM
+            USER u,user_role ur,role r
+        WHERE
+            u.id=ur.user_id AND ur.role_id = r.id
+          AND u.id = #{id}
+    </select>
+
+
+
+</mapper>

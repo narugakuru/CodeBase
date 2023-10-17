@@ -1,0 +1,8 @@
+_test.goTestXXXfunc (t *testing.T)t.Errort.Fail
+通过创建一个名称以 in 结尾的文件来编写测试，该文件包含以 签名 命名的函数。测试框架运行每个这样的函数;
+如果函数调用失败函数（如 或 ），则认为测试已失败。_test.goTestXXXfunc (t *testing.T)t.Errort.Fail
+
+You write a test by creating a file with a name ending in that contains functions named with signature . 
+The test framework runs each such function; 
+if the function calls a failure function such as or , 
+the test is considered to have failed. _test.goTestXXXfunc (t *testing.T)t.Errort.Fail

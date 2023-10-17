@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="student" class="main.java.Student">
+<!--        <property>里面<>赋值，可以直接get
+            但property包裹的内容只能toString获取
+-->
+        <property name="name" value="法外狂徒-张三"></property>
+        <property name="books">
+            <array>
+                <value>水浒传</value>
+                <value>三国演义</value>
+                <value>西游记</value>
+            </array>
+        </property>
+        <property name="hashMap">
+            <map>
+                <entry key="身份证" value="114514"></entry>
+                <entry key="银行卡" value="20200314"></entry>
+            </map>
+        </property>
+
+    </bean>
+</beans>
