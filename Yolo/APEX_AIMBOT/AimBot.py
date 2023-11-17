@@ -46,9 +46,9 @@ class AimBot:
         self.locking=False
 
         # default settings by game
-        self.detect_length = 640
-        self.smooth = self.args.smooth * 2560 / self.args.resolution_x # higher resolution requires less move
-        self.scale = self.args.resolution_x / 2560 # set hyperparameters on 1920*1080, making all resolution the same effect
+        self.detect_length = self.args.detect_length
+        self.smooth = self.args.smooth * self.args.resolution_y / self.args.resolution_x # higher resolution requires less move
+        self.scale = self.args.resolution_x / self.args.resolution_y # set hyperparameters on 1920*1080, making all resolution the same effect
         for key in self.args.__dict__:
             if 'dis' in key:
                 self.args.__dict__[key] *= self.scale
@@ -70,7 +70,9 @@ class AimBot:
         self.camera = mss()
         self.region = {"top": self.top, "left": self.left, "width": self.detect_length, "height": self.detect_length}
 
+    # 截图速度很慢
     def grab_screen(self):
+
         return cv2.cvtColor(np.asarray(self.camera.grab(self.region)), cv2.COLOR_BGR2RGB)
 
     def on_click(self, x, y, button, pressed):

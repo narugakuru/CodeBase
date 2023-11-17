@@ -1,7 +1,7 @@
 from AimBot import AimBot
 import multiprocessing
 import time
-
+import os
 
 class ApexAimBot(AimBot):
     def __init__(self, config_path, onnx_path, engine_path):
@@ -13,9 +13,10 @@ class ApexAimBot(AimBot):
 
 
 if __name__ == '__main__':
+    os.path.abspath(os.path.dirname(__file__))
     multiprocessing.freeze_support()
-    apex = ApexAimBot(config_path='configs/apex.yaml',
-                      onnx_path='weights/best_apex.onnx', engine_path='weights/best_apex.trt')
+    apex = ApexAimBot(config_path='configs/thefinals.yaml',
+                      onnx_path='weights/thefinals.onnx', engine_path='weights/thefinals.trt')
     # apex_best_2.engine
     while True:
         apex.forward()

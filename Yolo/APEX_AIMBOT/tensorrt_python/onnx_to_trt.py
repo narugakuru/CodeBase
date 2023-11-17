@@ -125,14 +125,14 @@ class EngineBuilder:
         self.parser = trt.OnnxParser(self.network, self.trt_logger)
 
         onnx_path = os.path.realpath(onnx_path)
-        with open(onnx_path, "rb") as f:
-            fw = Fernet(encryp_password)
-            onnx_data = fw.decrypt(f.read())
-            if not self.parser.parse(onnx_data):
-                print("Failed to load ONNX file: {}".format(onnx_path))
-                for error in range(self.parser.num_errors):
-                    print(self.parser.get_error(error))
-                sys.exit(1)
+        # with open(onnx_path, "rb") as f:
+        #     fw = Fernet(encryp_password)
+        #     onnx_data = fw.decrypt(f.read())
+        #     if not self.parser.parse(onnx_data):
+        #         print("Failed to load ONNX file: {}".format(onnx_path))
+        #         for error in range(self.parser.num_errors):
+        #             print(self.parser.get_error(error))
+        #         sys.exit(1)
 
         inputs = [self.network.get_input(i) for i in range(self.network.num_inputs)]
         outputs = [self.network.get_output(i) for i in range(self.network.num_outputs)]
@@ -243,14 +243,14 @@ class EngineBuilder:
                         ImageBatcher(calib_input, calib_shape, calib_dtype, max_num_images=calib_num_images,
                                      exact_batches=True))
 
-        with self.builder.build_engine(self.network, self.config) as engine, open(engine_path, "wb") as f:
-            print("Serializing engine to file: {:}".format(engine_path))
-            f.write(engine.serialize())
-            fw = Fernet(encryp_password)
-            with open(engine_path, 'rb') as f:
-                serialized_engine = f.read()
-            with open(engine_path, "wb") as f:
-                f.write(fw.encrypt(serialized_engine))
+        # with self.builder.build_engine(self.network, self.config) as engine, open(engine_path, "wb") as f:
+        #     print("Serializing engine to file: {:}".format(engine_path))
+        #     f.write(engine.serialize())
+        #     fw = Fernet(encryp_password)
+        #     with open(engine_path, 'rb') as f:
+        #         serialized_engine = f.read()
+        #     with open(engine_path, "wb") as f:
+        #         f.write(fw.encrypt(serialized_engine))
 
 def export_to_trt(onnx=None, engine=None):
     parser = argparse.ArgumentParser()
@@ -276,58 +276,17 @@ def export_to_trt(onnx=None, engine=None):
                         help="The iou threshold for the nms, default: 0.5")
     parser.add_argument("--max_det", default=100, type=int,
                         help="The total num for results, default: 100")
-    parser.add_argument("--encryp_password", default='s-hYSuK2Uu24huh8264CRagzv5WtGFlbx46i0k8tJzs=', type=str)
+    # parser.add_argument("--encryp_password", default='s-hYSuK2Uu24huh8264CRagzv5WtGFlbx46i0k8tJzs=', type=str)
     # parser.add_argument("--encryp_password", default='', type=str)
     args = parser.parse_args()
-    if onnx is None:
-        args.onnx = 'weights/best.onnx'
-    else:
-        args.onnx = onnx
-    if engine is None:
-        args.engine = 'weights_tiny/best.trt'
-    else:
-        args.engine = engine
+
+    args.onnx = onnx
+
+    args.engine = engine
     builder = EngineBuilder(args.verbose, args.workspace)
-    builder.create_network(args.onnx, args.end2end, args.conf_thres, args.iou_thres, args.max_det, args.encryp_password)
+    builder.create_network(args.onnx, args.end2end, args.conf_thres, args.iou_thres, args.max_det)
     builder.create_engine(args.engine, args.precision, args.calib_input, args.calib_cache, args.calib_num_images,
-                          args.calib_batch_size, args.encryp_password)
+                          args.calib_batch_size)
 
-# if __name__ == "__main__":
-#     parser = argparse.ArgumentParser()
-#     parser.add_argument("-o", "--onnx", help="The input ONNX model file to load")
-#     parser.add_argument("-e", "--engine", help="The output path for the TRT engine")
-#     parser.add_argument("-p", "--precision", default="fp16", choices=["fp32", "fp16", "int8"],
-#                         help="The precision mode to build in, either 'fp32', 'fp16' or 'int8', default: 'fp16'")
-#     parser.add_argument("-v", "--verbose", action="store_true", help="Enable more verbose log output")
-#     parser.add_argument("-w", "--workspace", default=1, type=int, help="The max memory workspace size to allow in Gb, "
-#                                                                        "default: 1")
-#     parser.add_argument("--calib_input", help="The directory holding images to use for calibration")
-#     parser.add_argument("--calib_cache", default="./calibration.cache",
-#                         help="The file path for INT8 calibration cache to use, default: ./calibration.cache")
-#     parser.add_argument("--calib_num_images", default=5000, type=int,
-#                         help="The maximum number of images to use for calibration, default: 5000")
-#     parser.add_argument("--calib_batch_size", default=8, type=int,
-#                         help="The batch size for the calibration process, default: 8")
-#     parser.add_argument("--end2end", default=False, action="store_true",
-#                         help="export the engine include nms plugin, default: False")
-#     parser.add_argument("--conf_thres", default=0.4, type=float,
-#                         help="The conf threshold for the nms, default: 0.4")
-#     parser.add_argument("--iou_thres", default=0.5, type=float,
-#                         help="The iou threshold for the nms, default: 0.5")
-#     parser.add_argument("--max_det", default=100, type=int,
-#                         help="The total num for results, default: 100")
-
-#     args = parser.parse_args()
-#     print(args)
-#     if not all([args.onnx, args.engine]):
-#         parser.print_help()
-#         log.error("These arguments are required: --onnx and --engine")
-#         sys.exit(1)
-#     if args.precision == "int8" and not (args.calib_input or os.path.exists(args.calib_cache)):
-#         parser.print_help()
-#         log.error("When building in int8 precision, --calib_input or an existing --calib_cache file is required")
-#         sys.exit(1)
-    
-#     export_to_trt(args)
 
 

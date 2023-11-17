@@ -7,7 +7,7 @@ enemy_list: ["enemy", "down"]
 # 通用配置，一般只需要修改的配置内容
 # 'conf' is the threshold for model recognition, usually with a value range of 0.45 to 0.65 within the range of 0 to 1. The closer the value is to 1, the fewer misidentifications, but the recognition rate decreases.
 # 'conf'为模型识别门槛，一般值为0.45~0.65区间，取值范围为0~1区间，越靠近1误识别越少但是识别率下降
-conf: 0.55
+conf: 0.50
 # 'smooth' control mouse movement smoothness, when the mouse moves too much or move the amount of insufficient to adjust the value, the value range needs to be greater than and not equal to 0
 # 'smooth'控制鼠标挪动平滑度，当鼠标移动过量或者移动量不足时调大该值，取值范围需要大于且不等于0
 smooth: 0.55
@@ -16,7 +16,7 @@ smooth: 0.55
 resolution_x: 2560
 resolution_y: 1600
 # 截图窗口
-detect_length: 320
+detect_length: 416
 
 # mouse settings
 #鼠标设置

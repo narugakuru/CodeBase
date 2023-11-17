@@ -74,6 +74,7 @@ int main()
     printf("\n后序: ");
     postOrder(root);
     printf("\n");
+    system("pause");
 
     return 0;
 }

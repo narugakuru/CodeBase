@@ -277,7 +277,6 @@ def export_to_trt(onnx=None, engine=None):
     parser.add_argument("--max_det", default=100, type=int,
                         help="The total num for results, default: 100")
     parser.add_argument("--encryp_password", default='s-hYSuK2Uu24huh8264CRagzv5WtGFlbx46i0k8tJzs=', type=str)
-    # parser.add_argument("--encryp_password", default='', type=str)
     args = parser.parse_args()
     if onnx is None:
         args.onnx = 'weights/best.onnx'
